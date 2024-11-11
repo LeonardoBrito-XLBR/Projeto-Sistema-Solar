@@ -43,11 +43,18 @@
 
 }
 
+.central .planets-information{
+    padding: 30px;
+}
+
 .planets-information{
     display: flex;
     justify-content: center;
     align-items: center; 
     border: 5px, solid, blue;
+    width: 400px;
+    padding: 3px;
+
 }
 
 
