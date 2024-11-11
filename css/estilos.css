@@ -37,9 +37,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 600px;
-    margin: 0;
+    width: 90%;
+    margin: 0 auto;
+    height: 400px;
 
+}
+
+.planets-information{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 5px, solid, blue;
 }
 
 
