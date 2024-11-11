@@ -37,23 +37,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     height: 400px;
+    gap: 30%;
 
 }
 
-.central .planets-information{
-    padding: 30px;
-}
 
 .planets-information{
     display: flex;
     justify-content: center;
     align-items: center; 
     border: 5px, solid, blue;
-    width: 400px;
+    width: auto;
     padding: 3px;
+    flex-direction: column;
+    gap: 30%;
+    height: 400px;
 
 }
 
