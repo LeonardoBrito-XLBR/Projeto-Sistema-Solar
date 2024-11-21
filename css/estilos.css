@@ -76,7 +76,6 @@ body{
 
 /* 4 QUADROS DA INFORMACOES DOS PLANETAS */ 
 .dados-numericos {
-    clear: both;
     border: 1px solid red;
     display: flex;
     justify-content: center;
