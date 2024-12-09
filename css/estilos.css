@@ -8,6 +8,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    height: 80vh;
 }
 
 
@@ -38,13 +39,13 @@ body{
 
 
 .central {
-    border: 5px solid green;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     margin: 0 auto;
     height: 400px;
+    gap: 300px;
 }
 
 .central img {
@@ -57,12 +58,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center; 
-    border: 5px, solid, blue;
     width: 40%;
     padding: 3px;
     flex-direction: column;
     gap: 30%;
     height: 400px;
+    
 
 }
 
@@ -76,7 +77,7 @@ body{
 
 /* 4 QUADROS DA INFORMACOES DOS PLANETAS */ 
 .dados-numericos {
-    border: 1px solid red;
+    
     display: flex;
     justify-content: center;
     flex-direction: row;
