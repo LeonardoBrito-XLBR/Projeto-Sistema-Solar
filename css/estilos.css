@@ -5,10 +5,14 @@
 }
 
 body{
+    background-color: rgba(0, 0, 0, 0.822);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 80vh;
+
 }
 
 
@@ -17,6 +21,8 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px 20px;              
+    color: white;
+    margin-top: 5px;
 }
 
 
@@ -31,7 +37,7 @@ body{
 }
 
 .navegacao a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 18px;
     
@@ -54,7 +60,8 @@ body{
 }
 
 
-.planets-information{
+.planets-descricao{
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center; 
