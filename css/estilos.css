@@ -93,6 +93,13 @@ button{
     text-transform: uppercase;
 }
 
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 /* 4 QUADROS DA INFORMACOES DOS PLANETAS */ 
 .dados-numericos {
     
