@@ -51,12 +51,12 @@ body{
     width: 100%;
     margin: 0 auto;
     height: 400px;
-    gap: 300px;
 }
 
 .central img {
     margin: 0 auto;
-    width: 320px;
+    width: 410px;
+
 }
 
 
@@ -80,7 +80,7 @@ body{
     justify-content: center;
     gap: 30px;
     flex-direction: column;
-    width: 450px;
+    width: 400px;
 
 }
 
@@ -108,7 +108,7 @@ button{
     flex-direction: row;
     gap: 30px;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 70px;
 
 }
 
