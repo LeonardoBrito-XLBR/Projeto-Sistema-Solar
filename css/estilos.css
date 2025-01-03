@@ -16,6 +16,11 @@ body{
 }
 
 
+.titulo a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
 #Cabecalho {
     display: flex;
     justify-content: space-between;
