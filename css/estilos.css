@@ -12,9 +12,16 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-
+    
 }
 
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;  
+
+    margin-top: 45px;
+}
 
 .titulo a {
     color: #f0f0f0;
@@ -45,6 +52,7 @@ body{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 18px;
+    transition: font-size 0.3s , color 0.3s ; 
     
 }
 
@@ -129,14 +137,9 @@ button{
     border-radius: 8px; /* Arredonda as bordas */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar os blocos */
     
-    
 }
 
-
-main {
-    width: 90%;
-    max-width: 1100px;
-    margin: 0 auto;  
-
-    margin-top: 45px;
-}
+.navegacao a:hover {
+    color: rgb(156, 57, 254);
+    font-size: 25px;
+} 
