@@ -33,7 +33,7 @@ main {
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
-    margin-top: 45px;
+    margin-top: 65px;
 }
 
 h1 {
@@ -129,7 +129,14 @@ button{
 .dados {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap:20px;
+}
+
+.dados h1{
+    font-size: 60px;
+}
+.dados a {
+    color: rgb(255, 255, 255);
 }
 
 /* 4 QUADROS DA INFORMACOES DOS PLANETAS */ 
