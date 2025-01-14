@@ -18,7 +18,7 @@
 }
 
 body{
-    background: url('../background/galaxy.jpg');
+    background: url('../background/star.jpg'); /* PAPEL DE PAREDE */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -178,9 +178,10 @@ button{
     font-weight: 600;
 }
 
+/* ANIMACAO PARA CADA PAGINA */
 .navegacao a:hover {
     color: var(--corPurple);
-    font-size: 25px;
+    font-size: 22px;
 } 
 
 .informacion-botoes button{
