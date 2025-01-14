@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --corPurple: rgb(156, 57, 254);
+    --corWhite: #f0f0f0;
+
+    --fontTitle: 'Josefin Sans';
+    --fontText: 'Overpass';
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -16,16 +29,22 @@ body{
 }
 
 
-#Cabecalho {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 20px;              
-    color: white;
-    margin-top: 5px;
+    color: var(--corWhite);
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 
+
+hr {
+    background-color: white;
+}
 .navegacao ul {
     list-style: none;
     display: flex;
@@ -51,7 +70,7 @@ body{
     width: 100%;
     margin: 0 auto;
     height: 400px;
-    gap: 300px;
+    gap: 250px;
 }
 
 .central img {
@@ -84,7 +103,7 @@ body{
 
 }
 
-button{
+.informacion-botoes button{
     height: 50px;
     border-radius: 4px;
     border: none;
@@ -93,6 +112,9 @@ button{
     text-transform: uppercase;
 }
 
+.button-planets {
+    padding: 2px 10px;
+}
 
 .dados {
     display: flex;
